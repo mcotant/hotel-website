@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7rem;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10 0;
+}
+
+/* Nav Bar */
+
+#navbar {
+  background: #333333;
+  color: white;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 150 px;
+}
+
+#navbar a {
+  color: white;
+}
+
+.links {
+  display: flex;
+  padding: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  margin: 0 16px;
+}
+
+.logo {
+  padding: 20px;
+}
